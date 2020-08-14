@@ -1,9 +1,5 @@
 # HealtApp Bot
 
-master: [![pipeline status](https://gitlab.com/fiuba-memo2/tp2/elmuro-bot/badges/master/pipeline.svg)](https://gitlab.com/fiuba-memo2/tp2/elmuro-bot/commits/master)
-
-staging: [![pipeline status](https://gitlab.com/fiuba-memo2/tp2/elmuro-bot/badges/staging/pipeline.svg)](https://gitlab.com/fiuba-memo2/tp2/elmuro-bot/commits/staging)
-
 ### Ambientes
 
 - Producción: [link](https://elmuro-bot.herokuapp.com/)
@@ -29,11 +25,6 @@ Luego, cuándo se haya terminado de trabajar en la feature, se armará un Merge 
    \                    /
     --- my-feature -----
 ```
- #### Default Actions
- 
- En caso de que un miembro tenga una consulta que debe comentar con algun otro miembro del equipo pero este no contesta dentro de 2 horas, se procedera con la interpretación del autor de la consulta.
-
-También, en caso de que un miembro lea la consulta pero no puede responder porque esta ocupado, deme notificar que luego procedera a responder la duda del compañero.
 
 #### Code Review
 Una vez finalizado un feature, debe crearse un merge request a la rama de staging y notificar a los demás miembros para que alguno de estos revise el código y apruebe el merge en caso de estar correcto, o notificar de los cambios necesarios para la aprobación del mismo.
